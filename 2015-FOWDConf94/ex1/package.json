@@ -1,0 +1,27 @@
+{
+	"name": "ex1",
+	"version": "0.0.1",
+	"description": "",
+	"main": "app.js",
+	"author": "Perry Mitchell <perry@perrymitchell.net>",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"autoprefixer": 		"6.0.3",
+		"cssnano": 				"3.1.0",
+		"grunt":				"0.4.5",
+		"grunt-contrib-clean":	"0.6.0",
+		"grunt-contrib-copy":	"0.8.1",
+		"grunt-contrib-jade": 	"^0.15.0",
+		"grunt-contrib-jasmine":"0.9.2",
+		"grunt-contrib-uglify": "0.9.2",
+		"grunt-contrib-watch":  "0.6.1",
+		"grunt-notify":			"0.4.1",
+		"grunt-postcss": 		"0.6.0",
+		"grunt-sass":			"1.1.0-beta",
+		"load-grunt-tasks":		"3.2.0",
+		"marky-markdown": 		"5.4.0",
+		"time-grunt":			"1.2.1",
+		"walk":					"2.3.9"
+	}
+}

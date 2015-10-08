@@ -1,0 +1,35 @@
+extends partial/mainlayout.jade
+
+block title
+	title Example 1
+
+block header-title
+	h1.title Example 1
+
+block navigation
+	li
+		a(href="index.html") Home
+		a(href="about.html") About
+
+block article
+	// content
+
+block aside
+	h3 It should be simple
+	p
+		| Simplicity should be a desirable aspect about all parts of your project,
+		| including the development workflow.
+	- var steps = ["Keep", "It", "Simple"]
+	ul
+		for step in steps
+			li= step
+
+block footer
+	h3 Example 1
+	p 
+		| See what 
+		span#footerWord
+		|  can do?
+	script(type="text/javascript").
+		var footerWord = document.getElementById("footerWord");
+		window.ExampleLib.updateElement(footerWord, 3000);

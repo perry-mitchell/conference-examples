@@ -1,0 +1,24 @@
+extends partial/mainlayout.jade
+
+block head
+	script(type="text/javascript", src="js/jquery.js")
+	script(type="text/javascript", src="js/tweets.js")
+	link(href='https://fonts.googleapis.com/css?family=Hind:400,700', rel='stylesheet', type='text/css')
+	style(type="text/css").
+		body {
+			font-family: 'Hind', sans-serif;
+			padding: 25px;
+		}
+		h1 {
+			font-weight: bold;
+		}
+		div.tweet {
+			margin: 20px;
+			padding: 5px;
+			background-color: #EEE;
+			border-radius: 4px;
+			overflow: hidden;
+		}
+
+block content
+	div#tweets

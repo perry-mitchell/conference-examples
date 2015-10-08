@@ -1,0 +1,22 @@
+{
+  "name": "ex2",
+  "version": "1.0.0",
+  "description": "Example 2",
+  "main": "public/index.js",
+  "scripts": {
+    "setup": "node ./node_modules/.bin/electron-rebuild",
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^2.0.2",
+    "electron-prebuilt": "^0.33.6",
+    "electron-rebuild": "^1.0.1",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-uglify": "^1.4.1",
+    "run-sequence": "^1.1.4",
+    "twitter": "^1.2.5"
+  }
+}
